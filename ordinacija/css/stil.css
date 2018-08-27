@@ -1,0 +1,681 @@
+body{
+	margin: 0;
+	padding: 0;
+	min-height: 100vh;
+	position: relative;
+	background-color: #e6e6e6;
+}
+body p{
+	margin: 0;
+}
+body h3{
+	margin: 0;
+}
+header{
+	background: linear-gradient(to bottom, #e6e6e6, #1a8cff);
+	height: 150px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+footer{
+	width: 100%;
+	height: 130px;
+	background-color: #808080;
+	position: absolute;
+	bottom: 0;
+}
+footer a{
+	float: right;
+	margin-top: 20px;
+	margin-right: 60px;
+	color: silver;
+	text-decoration: none;
+}
+#p1, #p2{
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+	float: left;
+	margin-top: 20px;
+}
+#p1{
+	padding-left: 50px;
+	
+}
+#p2{
+	height: 30px;
+	padding-left: 600px;
+}
+#p2 a{
+	color: silver;
+	font-weight: bold;
+	font-size: 15px;
+	padding-left: 320px;
+}
+#facebook, #twitter{
+	margin-top: 20px;
+	float: left;
+	height: 70px;
+	width: 70px;
+	filter: grayscale(100%);
+}
+#facebook{
+	background-image: url("slike/facebook.png");
+	background-size: contain;
+	margin-left: 70px;
+}
+#facebook:hover{
+	filter: grayscale(0%);
+}
+#twitter:hover{
+	filter: grayscale(0%);
+}
+#twitter{
+	background-image: url("slike/twitter.png");
+	background-size: contain;
+	margin-left: 20px;
+}
+
+#meni{
+	height: 50px;
+	width: 80%;
+	margin: auto;
+	margin-top: 70px;
+	padding-right: 40px;
+	list-style-type: none;
+	text-align: center;
+}
+#meni li{
+	display: inline-block;
+	border: 1px solid #3399ff;
+	height: 50px;
+	width: 160px;
+	margin-left: 15px;
+	margin-right: 15px;
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: 5px 5px 15px 5px rgba(0, 115, 230,1);
+}
+#meni li a{
+	display: block;
+	text-decoration: none;
+	color: #003d99;
+	padding: 10px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 25px;
+}
+#meni li:hover{
+	background-color: #1a8cff;
+}
+#meni li a:hover{
+	color: white;
+}
+#logo{
+	float:left;
+	width: 140px;
+	margin: 5px;
+}
+#kontaktmain{
+	min-height: 100vh;
+	width: 100%;
+	margin: auto;
+}
+#kontakt{
+	margin: auto;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	padding: 30px;
+	padding-bottom: 0px;
+	width: 1200px;
+	height: 700px;
+	background: white;
+	box-shadow: 0px 0px 30px 5px rgba(0, 115, 230,0.73);
+}
+#map{
+	margin: auto;
+	height: 400px;
+	width: 1600px;
+	padding-bottom: 135px;
+}
+#zaglavljeslikakontakt{
+	margin-top: 150px;
+	border-top: 2px solid black;
+	width: 100%;
+	height: 190px;
+	background-image: url("slike/kontakt.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;	
+}
+#zaglavljeslikausluge{
+	margin-top: 150px;
+	border-top: 2px solid black;
+	width: 100%;
+	height: 190px;
+	background-image: url("slike/usluge.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;	
+}
+#adresa, #telefon, #email{
+	color: #004d99;
+	width: 350px;
+	float:left;
+	margin-top: 180px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 26px;
+}
+#adresa img, #telefon img, #email img{
+	margin-top: 30px;
+	padding-bottom: 40px;
+}
+#adresa{
+	margin-left: 50px;
+	margin-right: 20px;
+}
+#telefon{
+	border-left: 1px solid #3399ff;
+	border-right: 1px solid #3399ff;
+}
+#email{
+	margin-left: 20px;
+}
+#loginmain{
+	height: 836px;
+	width: 100%;
+	padding-bottom: 130px;
+}
+#login{
+	float: left;
+	width: 500px;
+	height: 330px;
+	margin-top: 290px;
+	margin-left: 550px;
+	text-align: center;
+	background: white;
+	color: #3399ff;
+	wont-weight: bold;
+	font-size: 25px;
+	box-shadow: -11px 0px 30px 5px rgba(0, 115, 230,0.73);
+}
+#logovanje{
+	margin-top: 30px;
+}
+#login input[type="text"], #login input[type="password"]{
+	height: 22px;
+	width: 200px;
+	box-shadow: 0px 0px 15px 2px rgba(0, 115, 230,1);
+	border-radius: 5px;
+	border: 3px solid #3399ff;
+}
+#login input[type="submit"]{
+	background-color: white;
+	border: 3px solid #3399ff;
+	color: #3399ff;
+	font-weight: bold;
+	padding: 5px;
+	border-radius: 2px;
+	box-shadow: 0px 0px 10px 1px rgba(0, 115, 230,1);
+}
+#loginslika{
+	float: left;
+	background-image: url("slike/login.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 330px;
+	width: 300px;
+	margin-top: 290px;
+	box-shadow: 11px 0px 30px 5px rgba(0, 115, 230,0.73);
+}
+#uslugemain{
+	min-height: 100vh;
+	padding-bottom: 160px;
+}
+#usluge{
+	width: 1200px;
+	margin: auto;
+	box-shadow: 0px 0px 30px 5px rgba(0, 115, 230,0.73);
+	padding: 30px;
+	margin-top: 10px;
+	background-color: white;
+}
+.nazivusluge a{
+	color: white;
+	display: block;
+}
+.nazivusluge, .pregledusluga{
+	margin: auto;
+	text-align: center;
+	width: 800px;
+	background-color: #3399ff;
+	padding: 5px;
+	color: white;
+	font-weight: bold;
+	border-style: ridge;
+	border-color: #003d99;
+}
+.nazivusluge{
+
+}
+.pregledusluga{
+	display: none;
+}
+#opisusluga{
+	width: 1000px;
+	margin: auto;
+}
+#opisusluga a{
+	position: absolute;
+	left: 0px;
+	top: -150px;
+}
+#onamamain{
+	min-height:100vh;
+	width: 100%;
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+#onama{
+	width: 1200px;
+	height: auto;
+	margin: auto;
+	margin-top: 30px;
+	box-shadow: 0px 0px 30px 5px rgba(0, 115, 230,0.73);
+	padding: 30px;
+	background-color: white;
+}
+#onamaslika {
+	width: 800px;
+	height: 500px;
+	background-image: url("slike/onama.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: auto;
+}
+#onama p{
+	width: 800px;
+	margin: auto;
+	margin-top: 50px;
+}
+#onamazaglavljeslika{
+	height: 190px;
+	width: 100%;
+	margin-top: 120px;
+	border-top: 2px solid black;
+	background-image: url("slike/onamazaglavlje.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#cenovnikmain{
+	min-height:100vh;
+	width: 100%;
+	padding-bottom: 160px;
+}
+#zaglavljeslikacenovnik{
+	margin-top: 150px;
+	border-top: 2px solid black;
+	width: 100%;
+	height: 190px;
+	background-image: url("slike/cenovnik.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;	
+}
+#cenovnik{
+	width: 1200px;
+	height: auto;
+	margin: auto;
+	margin-top: 30px;
+	box-shadow: 0px 0px 30px 5px rgba(0, 115, 230,0.73);
+	padding: 30px;
+	background-color: white;
+}
+#cenovnikt td{
+	border-bottom: 1px solid #1a8cff;
+	line-height: 24px;
+}
+#cenovnikt th{
+	text-transform: uppercase;
+}
+.blank{
+	border-style: none; 
+	height: 20px;
+}
+#podacimain{
+	width: 100%;
+	padding-top: 130px;
+}
+#podaci{
+	width: 1200px;
+	height: 400px;
+	margin: auto;
+	margin-top: 130px;
+	padding-bottom: 50px;
+	box-shadow: 0px 0px 30px 5px rgba(0, 115, 230,0.73);
+	background-color: white;
+}
+#podacilista{	
+	line-height: 1.6;
+	height: 200px;
+	width: 800px;
+	margin: auto;
+	padding-top: 80px;
+	text-align: center;
+}
+#podacilista a{
+	font-weight: bolder;
+	font-size: 26px;
+	color: #003d99;
+	text-decoration: none;
+}
+#podacilista a:hover{
+	color: black;
+}
+#podacikorisnikmain{
+	width: 100%;
+	padding-bottom: 160px;
+	padding-top: 180px;
+}
+#podacikorisnik{
+	width: 1200px;
+	height: auto;
+	margin: auto;
+	box-shadow: 0px 0px 30px 5px rgba(0, 115, 230,0.73);
+	background-color: white;
+	overflow: auto;
+	padding: 20px;
+	padding-bottom: 50px
+	
+}
+#podacikorisnik table, #podacikorisnik td{
+	border: 1px solid #003d99;
+}
+.naslov{
+	background-color: #1a8cff;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+}
+#podacikorisnik a:not(.linknazad){
+	text-decoration: none;
+}
+#podacikorisnik a:not(.linknazad):hover{
+	color: black;
+}
+#novikorisnik{
+	width: 500px; 
+	height:300px; 
+	margin: auto;
+	margin-top: 50px;
+	font-weight: bold;
+	line-height: 30px;
+	padding-left: 70px;
+}
+#novikorisnik table{
+	border: none;
+}
+#novikorisnik{
+	margin: auto;
+}
+#novikorisnik form table{
+	margin: auto;
+	width: 500px;
+	border: none;
+}
+#novikorisnik table input{
+	width: 250px;
+	height: 24px;
+}
+#novikorisnik td{
+	border: none;
+	padding-left: 4px;
+	overflow: scroll;
+}
+#novikorisnik select{
+	width: 257px;
+	height: 24px;
+}
+#podacikorisnik h4{
+	width: 400px;
+	text-align: center;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	font-size: 26px;
+	text-decoration: underline;
+	color: #1a8cff;
+}
+#podacikorisnik p{
+	font-size: 16px;
+	margin-left: 1000px;
+	margin-top: 50px;
+}
+.linknazad {
+	color: #1a8cff;
+	font-size: 26px;
+	font-weight: 600;
+	text-decoration: none;
+	width: 200px;
+	margin-left: 700px;
+}
+.linknazad:hover{
+	color: black;
+}
+#podaciadresamain{
+	width: 100%;
+	padding-bottom: 160px;
+	padding-top: 180px;
+}
+#podaciadresa{
+	width: 1200px;
+	height: auto;
+	margin: auto;
+	box-shadow: 0px 0px 30px 5px rgba(0, 115, 230,0.73);
+	background-color: white;
+	overflow: auto;
+	padding: 20px;
+	padding-bottom: 50px
+}
+#podaciadresa table, #podaciadresa td{
+	border: 1px solid #003d99;
+}
+#podaciadresa a:not(.linknazad){
+	text-decoration: none;
+}
+#podaciadresa a:not(.linknazad):hover{
+	color: black;
+}
+#podaciuslugamain{
+	width: 100%;
+	padding-bottom: 160px;
+	padding-top: 180px;
+}
+#podaciusluga{
+	width: 1200px;
+	height: auto;
+	margin: auto;
+	box-shadow: 0px 0px 30px 5px rgba(0, 115, 230,0.73);
+	background-color: white;
+	overflow: auto;
+	padding: 20px;
+	padding-bottom: 50px
+}
+#podaciusluga table, #podaciusluga td{
+	border: 1px solid #003d99;
+}
+#podaciusluga a:not(.linknazad){
+	text-decoration: none;
+}
+#podaciusluga a:not(.linknazad):hover{
+	color: black;
+}
+#korisnikmain{
+	width: 100%;
+	padding-bottom: 160px;
+	padding-top: 180px;
+}
+#korisnik{
+	width: 1200px;
+	height: 600px;
+	margin: auto;
+	box-shadow: 0px 0px 30px 5px rgba(0, 115, 230,0.73);
+	background-color: white;
+	overflow: auto;
+	padding: 20px;
+}
+#korisniktable td{
+	border: 1px solid #1a8cff;
+}
+#korisnik p a{
+	text-decoration: none;
+}
+#korisnik p a:hover{
+	color: black;
+}
+#zakazivanjemain{
+	width: 100%;
+	padding-bottom: 160px;
+	padding-top: 180px;
+}
+#zakazivanje{
+	width: 1200px;
+	height: 600px;
+	margin: auto;
+	box-shadow: 0px 0px 30px 5px rgba(0, 115, 230,0.73);
+	background-color: white;
+	overflow: auto;
+	padding: 20px;
+}
+#zakazivanje form table{
+	margin-left: 70px;
+	width: 70%;
+	border: 1px solid #1a8cff;
+}
+#zauzeti{
+	border: 1px solid #1a8cff;
+	width: 200px;
+	margin-left: 980px;
+	min-height: 200px;
+	height: auto;
+	background-color: #e6e6e6;
+	box-shadow: 0px 0px 20px 5px rgba(0, 115, 230,0.73);
+	margin-top: 100px;
+	position: absolute;
+}
+#zauzeti p{
+	width:100%;
+	margin-top: 6px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	color: #1a8cff;
+}
+#ispisusluga{
+	width: 70%;
+	margin-left: 70px;
+	margin-bottom: 30px;
+	margin-top: 20px;
+	height: auto;
+}
+#zakazi{
+	border: 1px solid #1a8cff;
+	height: 100px;
+	width: 200px;
+	margin-left: 980px;
+	background-color: #e6e6e6;
+	box-shadow: 0px 0px 20px 5px rgba(0, 115, 230,0.73);
+	position: absolute;
+}
+#zakazi p{
+	width:100%;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 5px;
+	color: #1a8cff;
+	font-size: 20px;
+}
+#zakazi input[type=submit]{
+	background-color: white;
+	border: 3px solid #3399ff;
+	color: #3399ff;
+	font-weight: bold;
+	padding: 5px;
+	border-radius: 2px;
+	box-shadow: 0px 0px 10px 1px rgba(0, 115, 230,1);
+	margin-left: 70px;
+}
+#nemapregleda{
+	margin-top: 50px;
+	border: 1px solid #1a8cff;
+	text-align: center;
+	background-color:#1a8cff;
+	color: white;
+}
+.podaci{
+	border: 1px solid #1a8cff;
+	height: 50px;
+	overflow: scroll;
+}
+#izvestajimain{
+	width: 100%;
+	padding-bottom: 160px;
+	padding-top: 180px;
+}
+#izvestaji{
+	width: 1200px;
+	min-height: 550px;
+	margin: auto;
+	box-shadow: 0px 0px 30px 5px rgba(0, 115, 230,0.73);
+	background-color: white;
+	overflow: auto;
+	padding: 20px;
+	padding-bottom: 50px
+	
+}
+#izvTable td{
+	border: 1px solid #1a8cff;
+}
+#fltTable{
+	margin-left: 18px;
+}
+#zauzetitermini{
+	margin: auto;
+	height: 160px;
+	width: 180px;
+	overflow: auto;
+	color: #1a8cff;
+	text-align: center;
+}
+#indexmain{
+	min-height: 680px;
+	width: 100%;
+	margin: auto;
+	padding-top: 180px;
+	padding-bottom: 30px;
+}
+#index{
+	margin: auto;
+	padding: 30px;
+	width: 1200px;
+	height: auto;
+	background: white;
+	box-shadow: 0px 0px 30px 5px rgba(0, 115, 230,0.73);
+	text-align: center;
+}
+#index h1{
+	color: #1a8cff;
+	font-size: 40px;
+}
+#index p{
+	width: 60%; 
+	margin: auto;
+}
+#otkazi{
+	text-decoration: none;
+}
+#otkazi:hover{
+	color: black;
+}
